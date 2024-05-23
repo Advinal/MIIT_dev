@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+df = pd.read_csv("D:/kods/real_estate.csv", sep=';')
+plt.hist(df['Transact Date'])
+plt.show()
+plt.hist(df['Age'])
+plt.show()
+plt.hist(df['Distance To Transport'])
+plt.show()
+plt.hist(df['Shops'])
+plt.show()
+plt.hist(df['Latitude'])
+plt.show()
+plt.hist(df['Longitude'])
+plt.show()
+plt.hist(df['Price'])
+plt.show()
